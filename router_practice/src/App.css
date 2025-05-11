@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.navigation {
+  background-color: #f8f9fa; /* Màu nền nhạt */
+  padding: 15px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  font-weight: Bold;
+  padding: 8px 12px;
+}
+
+nav a:hover {
+  color: rgb(35, 223, 35);
+  background-color: #e9ecef; 
+  border-radius: 4px;
+}
+
